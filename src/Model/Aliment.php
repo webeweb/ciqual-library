@@ -1,0 +1,101 @@
+<?php
+
+/*
+ * This file is part of the ciqual-library package.
+ *
+ * (c) 2021 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\Ciqual\Model;
+
+use WBW\Library\Ciqual\Model\Attribute\StringCodeSousGroupeTrait;
+use WBW\Library\Ciqual\Model\Attribute\StringCodeSousSousGroupeTrait;
+use WBW\Library\Ciqual\Model\Attribute\StringNomEngTrait;
+use WBW\Library\Ciqual\Model\Attribute\StringNomFrTrait;
+use WBW\Library\Traits\Strings\StringCodeTrait;
+
+/**
+ * Aliment.
+ *
+ * @author webeweb <https://github.com/webeweb/>
+ * @package WBW\Library\Ciqual\Model
+ */
+class Aliment {
+
+    use StringCodeTrait;
+    use StringCodeSousGroupeTrait;
+    use StringCodeSousSousGroupeTrait;
+    use StringNomEngTrait;
+    use StringNomFrTrait;
+
+    /**
+     * DOM node name.
+     *
+     * @var string
+     */
+    const DOM_NODE_NAME = "ALIM";
+
+    /**
+     * Code groupe.
+     *
+     * @var string|null
+     */
+    private $codeGroupe;
+
+    /**
+     * Nom index FR.
+     *
+     * @var string|null
+     */
+    private $nomIndexFr;
+
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO
+    }
+
+    /**
+     * Get the code groupe.
+     *
+     * @return string|null Returns the code groupe.
+     */
+    public function getCodeGroupe(): ?string {
+        return $this->codeGroupe;
+    }
+
+    /**
+     * Get the nom index FR.
+     *
+     * @return string|null Returns the nom index FR.
+     */
+    public function getNomIndexFr(): ?string {
+        return $this->nomIndexFr;
+    }
+
+    /**
+     * Set the code groupe.
+     *
+     * @param string|null $codeGroupe The code groupe.
+     * @return Aliment Returns this aliment.
+     */
+    public function setCodeGroupe(?string $codeGroupe): Aliment {
+        $this->codeGroupe = $codeGroupe;
+        return $this;
+    }
+
+    /**
+     * Set the nom index FR.
+     *
+     * @param string|null $nomIndexFr The nom index FR.
+     * @return Aliment Returns this aliment.
+     */
+    public function setNomIndexFr(?string $nomIndexFr): Aliment {
+        $this->nomIndexFr = $nomIndexFr;
+        return $this;
+    }
+}
