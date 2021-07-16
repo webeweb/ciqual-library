@@ -11,10 +11,12 @@
 
 namespace WBW\Library\Ciqual\Model;
 
+use JsonSerializable;
 use WBW\Library\Ciqual\Model\Attribute\StringCodeSousGroupeTrait;
 use WBW\Library\Ciqual\Model\Attribute\StringCodeSousSousGroupeTrait;
 use WBW\Library\Ciqual\Model\Attribute\StringNomEngTrait;
 use WBW\Library\Ciqual\Model\Attribute\StringNomFrTrait;
+use WBW\Library\Ciqual\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringCodeTrait;
 
 /**
@@ -23,7 +25,7 @@ use WBW\Library\Traits\Strings\StringCodeTrait;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Ciqual\Model
  */
-class Aliment {
+class Aliment implements JsonSerializable {
 
     use StringCodeTrait;
     use StringCodeSousGroupeTrait;
@@ -75,6 +77,13 @@ class Aliment {
      */
     public function getNomIndexFr(): ?string {
         return $this->nomIndexFr;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeAliment($this);
     }
 
     /**
