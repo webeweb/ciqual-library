@@ -11,13 +11,16 @@
 
 namespace WBW\Library\Ciqual\Model;
 
+use JsonSerializable;
+use WBW\Library\Ciqual\Serializer\JsonSerializer;
+
 /**
  * Composition.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Ciqual\Model
  */
-class Composition {
+class Composition implements JsonSerializable {
 
     /**
      * DOM node name.
@@ -143,6 +146,13 @@ class Composition {
      */
     public function getTeneur(): ?string {
         return $this->teneur;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeComposition($this);
     }
 
     /**

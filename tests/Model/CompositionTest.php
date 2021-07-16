@@ -11,7 +11,9 @@
 
 namespace WBW\Library\Ciqual\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Ciqual\Model\Composition;
+use WBW\Library\Ciqual\Serializer\SerializerKeys;
 use WBW\Library\Ciqual\Tests\AbstractTestCase;
 
 /**
@@ -21,6 +23,34 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
  * @package WBW\Library\Ciqual\Tests\Model
  */
 class CompositionTest extends AbstractTestCase {
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        $obj = new Composition();
+        $obj->setCodeAliment("codeAliment");
+        $obj->setCodeConstituant("codeConstituant");
+        $obj->setTeneur("teneur");
+        $obj->setMin("min");
+        $obj->setMax("max");
+        $obj->setCodeConfiance("codeConfiance");
+        $obj->setCodeSource("codeSource");
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(7, $res);
+
+        $this->assertEquals("codeAliment", $res[SerializerKeys::CODE_ALIMENT]);
+        $this->assertEquals("codeConstituant", $res[SerializerKeys::CODE_CONSTITUANT]);
+        $this->assertEquals("teneur", $res[SerializerKeys::TENEUR]);
+        $this->assertEquals("min", $res[SerializerKeys::MIN]);
+        $this->assertEquals("max", $res[SerializerKeys::MAX]);
+        $this->assertEquals("codeConfiance", $res[SerializerKeys::CODE_CONFIANCE]);
+        $this->assertEquals("codeSource", $res[SerializerKeys::CODE_SOURCE]);
+    }
 
     /**
      * Tests the setCodeAliment() method.
@@ -123,6 +153,7 @@ class CompositionTest extends AbstractTestCase {
         $this->assertEquals("COMPO", Composition::DOM_NODE_NAME);
 
         $obj = new Composition();
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getCodeAliment());
         $this->assertNull($obj->getCodeConfiance());
