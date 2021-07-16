@@ -11,10 +11,44 @@
 
 namespace WBW\Library\Ciqual\Tests\Model;
 
+use JsonSerializable;
 use PHPUnit\Framework\TestCase;
 use WBW\Library\Ciqual\Model\GroupeAliments;
+use WBW\Library\Ciqual\Serializer\SerializerKeys;
 
 class GroupeAlimentsTest extends TestCase {
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        $obj = new GroupeAliments();
+        $obj->setCode("code");
+        $obj->setNomFr("nomFr");
+        $obj->setNomEng("nomEng");
+        $obj->setCodeSousGroupe("codeSousGroupe");
+        $obj->setNomFrSousGroupe("nomFrSousGroupe");
+        $obj->setNomEngSousGroupe("nomEngSousGroupe");
+        $obj->setCodeSousSousGroupe("codeSousSousGroupe");
+        $obj->setNomFrSousSousGroupe("nomFrSousSousGroupe");
+        $obj->setNomEngSousSousGroupe("nomEngSousSousGroupe");
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(9, $res);
+
+        $this->assertEquals("code", $res[SerializerKeys::CODE]);
+        $this->assertEquals("nomFr", $res[SerializerKeys::NOM_FR]);
+        $this->assertEquals("nomEng", $res[SerializerKeys::NOM_ENG]);
+        $this->assertEquals("codeSousGroupe", $res[SerializerKeys::CODE_SOUS_GROUPE]);
+        $this->assertEquals("nomFrSousGroupe", $res[SerializerKeys::NOM_FR_SOUS_GROUPE]);
+        $this->assertEquals("nomEngSousGroupe", $res[SerializerKeys::NOM_ENG_SOUS_GROUPE]);
+        $this->assertEquals("codeSousSousGroupe", $res[SerializerKeys::CODE_SOUS_SOUS_GROUPE]);
+        $this->assertEquals("nomFrSousSousGroupe", $res[SerializerKeys::NOM_FR_SOUS_SOUS_GROUPE]);
+        $this->assertEquals("nomEngSousSousGroupe", $res[SerializerKeys::NOM_ENG_SOUS_SOUS_GROUPE]);
+    }
 
     /**
      * Tests the setNomEngSousGroupe() method.
@@ -78,6 +112,7 @@ class GroupeAlimentsTest extends TestCase {
         $this->assertEquals("ALIM_GRP", GroupeAliments::DOM_NODE_NAME);
 
         $obj = new GroupeALiments();
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getCodeSousGroupe());
