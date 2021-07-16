@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Ciqual\Model;
 
+use JsonSerializable;
+use WBW\Library\Ciqual\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringCodeTrait;
 
 /**
@@ -19,7 +21,7 @@ use WBW\Library\Traits\Strings\StringCodeTrait;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Ciqual\Model
  */
-class Source {
+class Source implements JsonSerializable {
 
     use StringCodeTrait;
 
@@ -51,6 +53,13 @@ class Source {
      */
     public function getCitationRef(): ?string {
         return $this->citationRef;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeSource($this);
     }
 
     /**
