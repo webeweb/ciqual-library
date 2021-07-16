@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Ciqual\Model;
 
+use JsonSerializable;
 use WBW\Library\Ciqual\Model\Attribute\StringNomEngTrait;
 use WBW\Library\Ciqual\Model\Attribute\StringNomFrTrait;
+use WBW\Library\Ciqual\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringCodeTrait;
 
 /**
@@ -21,7 +23,7 @@ use WBW\Library\Traits\Strings\StringCodeTrait;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Ciqual\Model
  */
-class Constituant {
+class Constituant implements JsonSerializable {
 
     use StringCodeTrait;
     use StringNomEngTrait;
@@ -39,5 +41,12 @@ class Constituant {
      */
     public function __construct() {
         // NOTHING TO DO
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeConstituant($this);
     }
 }
