@@ -17,7 +17,6 @@ use WBW\Library\Ciqual\Model\Composition;
 use WBW\Library\Ciqual\Model\Constituant;
 use WBW\Library\Ciqual\Model\GroupeAliments;
 use WBW\Library\Ciqual\Model\Source;
-use WBW\Library\Ciqual\Provider\XmlProvider;
 use WBW\Library\Ciqual\Serializer\XmlDeserializer;
 use WBW\Library\Ciqual\Tests\AbstractTestCase;
 
@@ -37,7 +36,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     public function testDeserializeAliment(): void {
 
         $filename = realpath(__DIR__ . "/../Fixtures/alim_2020_07_07.xml");
-        $content  = XmlProvider::cleanXml($filename);
+        $content  = XmlDeserializer::xmlEntities($filename, "windows-1252");
 
         // Set a DOM document mock.
         $document = new DOMDocument();
@@ -62,7 +61,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     public function testDeserializeComposition(): void {
 
         $filename = realpath(__DIR__ . "/../Fixtures/compo_2020_07_07.xml");
-        $content  = XmlProvider::cleanXml($filename);
+        $content  = XmlDeserializer::xmlEntities($filename, "windows-1252");
 
         // Set a DOM document mock.
         $document = new DOMDocument();
@@ -88,7 +87,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     public function testDeserializeConstituant(): void {
 
         $filename = realpath(__DIR__ . "/../Fixtures/const_2020_07_07.xml");
-        $content  = XmlProvider::cleanXml($filename);
+        $content  = XmlDeserializer::xmlEntities($filename, "windows-1252");
 
         // Set a DOM document mock.
         $document = new DOMDocument();
@@ -110,7 +109,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     public function testDeserializeGroupeAliments(): void {
 
         $filename = realpath(__DIR__ . "/../Fixtures/alim_grp_2020_07_07.xml");
-        $content  = XmlProvider::cleanXml($filename);
+        $content  = XmlDeserializer::xmlEntities($filename, "windows-1252");
 
         // Set a DOM document mock.
         $document = new DOMDocument();
@@ -138,7 +137,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     public function testDeserializeSource(): void {
 
         $filename = realpath(__DIR__ . "/../Fixtures/sources_2020_07_07.xml");
-        $content  = XmlProvider::cleanXml($filename);
+        $content  = XmlDeserializer::xmlEntities($filename, "windows-1252");
 
         // Set a DOM document mock.
         $document = new DOMDocument();
