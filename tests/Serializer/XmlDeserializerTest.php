@@ -91,7 +91,7 @@ class XmlDeserializerTest extends AbstractTestCase {
 
         // Set a DOM document mock.
         $document = new DOMDocument();
-        $document->loadXML($content);
+        $document->load($filename);
 
         $res = XmlDeserializer::deserializeConstituant($document->documentElement->childNodes->item(1));
         $this->assertInstanceOf(Constituant::class, $res);
@@ -113,7 +113,7 @@ class XmlDeserializerTest extends AbstractTestCase {
 
         // Set a DOM document mock.
         $document = new DOMDocument();
-        $document->loadXML($content);
+        $document->load($filename);
 
         $res = XmlDeserializer::deserializeGroupeAliments($document->documentElement->childNodes->item(1));
         $this->assertInstanceOf(GroupeAliments::class, $res);
