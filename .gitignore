@@ -1,6 +1,6 @@
-# Composer
-/tests/Fixtures/var/cache/*
-!/tests/Fixtures/var/cache/.gitkeep
 /vendor/*
 /.phpunit.result.cache
 /composer.lock
+
+/tests/Fixtures/var/cache/*
+!/tests/Fixtures/var/cache/.gitkeep
