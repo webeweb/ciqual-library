@@ -16,7 +16,7 @@ use WBW\Library\Ciqual\Model\Composition;
 use WBW\Library\Ciqual\Model\Constituant;
 use WBW\Library\Ciqual\Model\GroupeAliments;
 use WBW\Library\Ciqual\Model\Source;
-use WBW\Library\Provider\Serializer\JsonSerializerHelper;
+use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
 /**
  * JSON serializer.
