@@ -91,8 +91,8 @@ class XmlProvider {
         }
 
         $nsp = str_replace("Provider", "Serializer", __NAMESPACE__);
-        $fct = "$nsp\\XmlDeserializer::deserialize{$methods[$k]}";
-        $add = "add{$methods[$k]}";
+        $fct = "$nsp\\XmlDeserializer::deserialize$methods[$k]";
+        $add = "add$methods[$k]";
 
         $xml = XmlDeserializer::xmlEntities($filename, "windows-1252");
 
