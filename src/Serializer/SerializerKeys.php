@@ -17,7 +17,7 @@ namespace WBW\Library\Ciqual\Serializer;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Ciqual\Serializer
  */
-class SerializerKeys {
+interface SerializerKeys {
 
     /**
      * Serializer key "citation réf".
