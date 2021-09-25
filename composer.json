@@ -22,7 +22,7 @@
         "ext-dom": "*",
         "ext-json": "*",
         "ext-zip": "*",
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
         "psr/log": "^1.0",
         "webeweb/core-library": "^8.0"
     },
