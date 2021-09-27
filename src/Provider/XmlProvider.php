@@ -19,6 +19,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use RuntimeException;
 use WBW\Library\Ciqual\Model\Table;
 use WBW\Library\Ciqual\Serializer\XmlDeserializer;
+use WBW\Library\Provider\Helper\GuzzleHelper;
 use ZipArchive;
 
 /**
@@ -120,6 +121,7 @@ class XmlProvider {
      */
     public static function downloadZip(string $url, string $filename): void {
 
+        $saveTo = GuzzleHelper::getStreamParameterName();
         $stream = fopen($filename, "w");
 
         $client = new Client([
@@ -127,7 +129,7 @@ class XmlProvider {
                 "Accept"     => "application/zip",
                 "User-Agent" => "webeweb/ciqual-library",
             ],
-            "save_to"     => $stream,
+            $saveTo       => $stream,
             "synchronous" => true,
         ]);
 
