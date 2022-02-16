@@ -25,7 +25,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class XmlProviderTest extends AbstractTestCase {
 
     /**
-     * Tests the extractZip() method.
+     * Tests extractZip()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -49,7 +49,7 @@ class XmlProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

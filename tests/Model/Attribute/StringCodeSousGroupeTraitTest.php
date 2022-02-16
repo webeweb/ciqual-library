@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute\TestStringCodeSousGroupeTr
 class StringCodeSousGroupeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeSousGroupe() method.
+     * Tests setCodeSousGroupe()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute\TestStringNomEngTrait;
 class StringNomEngTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setNomEng() method.
+     * Tests setNomEng()
      *
      * @return void
      */

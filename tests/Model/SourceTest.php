@@ -25,7 +25,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class SourceTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -43,7 +43,7 @@ class SourceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCitationRef() method.
+     * Tests setCitationRef()
      *
      * @return void
      */
@@ -56,7 +56,7 @@ class SourceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */
