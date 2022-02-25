@@ -14,7 +14,7 @@ namespace WBW\Library\Ciqual\Serializer;
 /**
  * Serializer keys.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Serializer
  */
 interface SerializerKeys {

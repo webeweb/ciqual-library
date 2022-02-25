@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 /**
  * JSON deserializer test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Tests\Serializer
  */
 class JsonDeserializerTest extends AbstractTestCase {

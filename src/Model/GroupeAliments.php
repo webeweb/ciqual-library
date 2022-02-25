@@ -22,7 +22,7 @@ use WBW\Library\Traits\Strings\StringCodeTrait;
 /**
  * Groupe aliments.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Model
  */
 class GroupeAliments implements JsonSerializable {

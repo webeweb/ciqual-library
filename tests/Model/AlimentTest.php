@@ -19,7 +19,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 /**
  * Aliment test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Tests\Model
  */
 class AlimentTest extends AbstractTestCase {

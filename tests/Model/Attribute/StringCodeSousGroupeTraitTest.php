@@ -17,7 +17,7 @@ use WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute\TestStringCodeSousGroupeTr
 /**
  * String code sous-groupe trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Tests\Model\Attribute
  */
 class StringCodeSousGroupeTraitTest extends AbstractTestCase {

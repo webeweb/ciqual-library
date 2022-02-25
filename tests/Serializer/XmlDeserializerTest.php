@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 /**
  * XML deserializer test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Tests\Serializer
  */
 class XmlDeserializerTest extends AbstractTestCase {

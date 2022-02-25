@@ -16,7 +16,7 @@ use WBW\Library\Ciqual\Model\Attribute\StringNomEngTrait;
 /**
  * Test string nom ENG trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute
  */
 class TestStringNomEngTrait {

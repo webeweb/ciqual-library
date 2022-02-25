@@ -18,7 +18,7 @@ use WBW\Library\Traits\Strings\StringCodeTrait;
 /**
  * Source.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Model
  */
 class Source implements JsonSerializable {

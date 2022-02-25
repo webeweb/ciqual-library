@@ -14,7 +14,7 @@ namespace WBW\Library\Ciqual\Model\Attribute;
 /**
  * String nom ENG trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Model\Attribute
  */
 trait StringNomEngTrait {

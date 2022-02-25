@@ -17,7 +17,7 @@ use WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute\TestStringNomFrTrait;
 /**
  * String nom FR trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ciqual\Tests\Model\Attribute
  */
 class StringNomFrTraitTest extends AbstractTestCase {
