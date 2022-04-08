@@ -20,7 +20,7 @@ namespace WBW\Library\Ciqual\Model;
 class Table {
 
     /**
-     * Aliments
+     * Aliments.
      *
      * @var Aliment[]
      */
@@ -41,14 +41,14 @@ class Table {
     private $constituants;
 
     /**
-     * Groupes aliements
+     * Groupes aliments.
      *
      * @var GroupeAliments[]
      */
     private $groupesAliments;
 
     /**
-     * Sources
+     * Sources.
      *
      * @var Source[]
      */
