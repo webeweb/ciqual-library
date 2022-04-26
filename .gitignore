@@ -3,4 +3,4 @@
 /composer.lock
 
 /tests/Fixtures/var/cache/*
-!/tests/Fixtures/var/cache/.gitignore
+!/tests/Fixtures/var/cache/.gitkeep
