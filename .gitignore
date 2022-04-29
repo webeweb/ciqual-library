@@ -2,5 +2,5 @@
 /.phpunit.result.cache
 /composer.lock
 
-/tests/Fixtures/var/cache/*
-!/tests/Fixtures/var/cache/.gitkeep
+/var/cache/*
+!/var/cache/.gitkeep

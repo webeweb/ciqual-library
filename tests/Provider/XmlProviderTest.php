@@ -34,7 +34,7 @@ class XmlProviderTest extends AbstractTestCase {
 
         // Set the mocks.
         $url  = "https://ciqual.anses.fr/cms/sites/default/files/inline-files/XML_2020_07_07.zip";
-        $file = realpath(__DIR__ . "/../Fixtures/var/cache/ciqual.zip");
+        $file = realpath(__DIR__ . "/../../var/cache/ciqual.zip");
 
         XmlProvider::downloadZip($url, $file);
 
