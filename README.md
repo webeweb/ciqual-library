@@ -5,7 +5,6 @@ ciqual-library
 [![Coverage Status](https://img.shields.io/coveralls/github/webeweb/ciqual-library/master.svg?style=flat-square)](https://coveralls.io/github/webeweb/ciqual-library?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/webeweb/ciqual-library/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/webeweb/ciqual-library/?branch=master)
 [![Latest Stable Version](https://img.shields.io/packagist/v/webeweb/ciqual-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/ciqual-library)
-[![Latest Unstable Version](https://img.shields.io/packagist/vpre/webeweb/ciqual-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/ciqual-library)
 [![License](https://img.shields.io/packagist/l/webeweb/ciqual-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/ciqual-library)
 [![composer.lock](https://img.shields.io/badge/.lock-uncommited-important.svg?style=flat-square)](https://packagist.org/packages/webeweb/ciqual-library)
 
