@@ -44,7 +44,7 @@ class Constituant implements JsonSerializable {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeConstituant($this);
