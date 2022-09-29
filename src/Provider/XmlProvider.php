@@ -142,6 +142,7 @@ class XmlProvider {
      * @return string[] Returns the matches enumeration.
      */
     protected static function enumMatches(): array {
+
         return [
             self::FILENAME_GROUPE_ALIMENT => "GroupeAliments",
             self::FILENAME_ALIMENT        => "Aliment",

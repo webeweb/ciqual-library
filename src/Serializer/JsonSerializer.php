@@ -33,6 +33,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * @return array Returns the serialized aliment.
      */
     public static function serializeAliment(Aliment $model): array {
+
         return [
             SerializerKeys::CODE                  => $model->getCode(),
             SerializerKeys::NOM_FR                => $model->getNomFr(),
@@ -51,6 +52,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * @return array Returns the serialized composition.
      */
     public static function serializeComposition(Composition $model): array {
+
         return [
             SerializerKeys::CODE_ALIMENT     => $model->getCodeAliment(),
             SerializerKeys::CODE_CONSTITUANT => $model->getCodeConstituant(),
@@ -69,6 +71,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * @return array Returns the serialized constituant.
      */
     public static function serializeConstituant(Constituant $model): array {
+
         return [
             SerializerKeys::CODE    => $model->getCode(),
             SerializerKeys::NOM_FR  => $model->getNomFr(),
@@ -83,6 +86,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * @return array Returns the serialized groupe aliments.
      */
     public static function serializeGroupeAliments(GroupeAliments $model): array {
+
         return [
             SerializerKeys::CODE                     => $model->getCode(),
             SerializerKeys::NOM_FR                   => $model->getNomFr(),
@@ -103,6 +107,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * @return array Returns the serialized source.
      */
     public static function serializeSource(Source $model): array {
+
         return [
             SerializerKeys::CODE         => $model->getCode(),
             SerializerKeys::CITATION_REF => $model->getCitationRef(),
