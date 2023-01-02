@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Ciqual\Tests\Provider;
 
-use Exception;
 use Throwable;
 use WBW\Library\Ciqual\Model\Table;
 use WBW\Library\Ciqual\Provider\XmlProvider;

@@ -13,7 +13,6 @@ namespace WBW\Library\Ciqual\Provider;
 
 use DOMDocument;
 use DOMElement;
-use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use RuntimeException;
