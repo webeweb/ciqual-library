@@ -17,6 +17,7 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use RuntimeException;
+use Throwable;
 use WBW\Library\Ciqual\Model\Table;
 use WBW\Library\Ciqual\Serializer\XmlDeserializer;
 use WBW\Library\Provider\Helper\GuzzleHelper;
@@ -117,7 +118,7 @@ class XmlProvider {
      * @param string $filename The filename.
      * @return void
      * @throws GuzzleException Throws a Guzzle exception if an error occurs.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function downloadZip(string $url, string $filename): void {
 

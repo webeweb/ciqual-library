@@ -12,6 +12,7 @@
 namespace WBW\Library\Ciqual\Tests\Provider;
 
 use Exception;
+use Throwable;
 use WBW\Library\Ciqual\Model\Table;
 use WBW\Library\Ciqual\Provider\XmlProvider;
 use WBW\Library\Ciqual\Tests\AbstractTestCase;
@@ -28,7 +29,7 @@ class XmlProviderTest extends AbstractTestCase {
      * Tests extractZip()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testExtractZip(): void {
 
