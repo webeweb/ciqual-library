@@ -1,7 +1,7 @@
 ciqual-library
 ==============
 
-[![Build Status](https://img.shields.io/github/workflow/status/webeweb/ciqual-library/build?style=flat-square)](https://github.com/webeweb/ciqual-library/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/webeweb/ciqual-library/build.yml?style=flat-square)](https://github.com/webeweb/ciqual-library/actions)
 [![Coverage Status](https://img.shields.io/coveralls/github/webeweb/ciqual-library/master.svg?style=flat-square)](https://coveralls.io/github/webeweb/ciqual-library?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/webeweb/ciqual-library/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/webeweb/ciqual-library/?branch=master)
 [![Latest Stable Version](https://img.shields.io/packagist/v/webeweb/ciqual-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/ciqual-library)
