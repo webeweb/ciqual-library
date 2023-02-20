@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute;
+namespace WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings;
 
-use WBW\Library\Ciqual\Model\Attribute\StringCodeSousGroupeTrait;
+use WBW\Library\Ciqual\Traits\Strings\StringCodeSousGroupeTrait;
 
 /**
  * Test string code sous-groupe trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute
+ * @package WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings
  */
 class TestStringCodeSousGroupeTrait {
 

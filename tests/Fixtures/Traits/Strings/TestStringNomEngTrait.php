@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute;
+namespace WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings;
 
-use WBW\Library\Ciqual\Model\Attribute\StringNomFrTrait;
+use WBW\Library\Ciqual\Traits\Strings\StringNomEngTrait;
 
 /**
- * Test string nom FR trait.
+ * Test string nom ENG trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute
+ * @package WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings
  */
-class TestStringNomFrTrait {
+class TestStringNomEngTrait {
 
-    use StringNomFrTrait;
+    use StringNomEngTrait;
 }

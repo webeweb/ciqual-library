@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ciqual\Model\Attribute;
+namespace WBW\Library\Ciqual\Traits\Strings;
 
 /**
  * String code sous sous-groupe trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Ciqual\Model\Attribute
+ * @package WBW\Library\Ciqual\Traits\Strings
  */
 trait StringCodeSousSousGroupeTrait {
 

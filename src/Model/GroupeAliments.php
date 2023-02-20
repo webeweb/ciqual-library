@@ -12,11 +12,11 @@
 namespace WBW\Library\Ciqual\Model;
 
 use JsonSerializable;
-use WBW\Library\Ciqual\Model\Attribute\StringCodeSousGroupeTrait;
-use WBW\Library\Ciqual\Model\Attribute\StringCodeSousSousGroupeTrait;
-use WBW\Library\Ciqual\Model\Attribute\StringNomEngTrait;
-use WBW\Library\Ciqual\Model\Attribute\StringNomFrTrait;
 use WBW\Library\Ciqual\Serializer\JsonSerializer;
+use WBW\Library\Ciqual\Traits\Strings\StringCodeSousGroupeTrait;
+use WBW\Library\Ciqual\Traits\Strings\StringCodeSousSousGroupeTrait;
+use WBW\Library\Ciqual\Traits\Strings\StringNomEngTrait;
+use WBW\Library\Ciqual\Traits\Strings\StringNomFrTrait;
 use WBW\Library\Traits\Strings\StringCodeTrait;
 
 /**

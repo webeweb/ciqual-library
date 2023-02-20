@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ciqual\Tests\Model\Attribute;
+namespace WBW\Library\Ciqual\Tests\Traits\Strings;
 
 use WBW\Library\Ciqual\Tests\AbstractTestCase;
-use WBW\Library\Ciqual\Tests\Fixtures\Model\Attribute\TestStringCodeSousGroupeTrait;
+use WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings\TestStringCodeSousGroupeTrait;
 
 /**
  * String code sous-groupe trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Ciqual\Tests\Model\Attribute
+ * @package WBW\Library\Ciqual\Tests\Traits\Strings
  */
 class StringCodeSousGroupeTraitTest extends AbstractTestCase {
 
