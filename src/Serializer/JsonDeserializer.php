@@ -27,7 +27,7 @@ use WBW\Library\Types\Helper\ArrayHelper;
 class JsonDeserializer {
 
     /**
-     * Deserializes an aliment.
+     * Deserialize an aliment.
      *
      * @param array $data The data.
      * @return Aliment Returns the deserialized aliment.
@@ -47,7 +47,7 @@ class JsonDeserializer {
     }
 
     /**
-     * Deserializes a composition.
+     * Deserialize a composition.
      *
      * @param array $data The data.
      * @return Composition Returns the deserialized composition.
@@ -67,7 +67,7 @@ class JsonDeserializer {
     }
 
     /**
-     * Deserializes a constituant.
+     * Deserialize a constituant.
      *
      * @param array $data The data.
      * @return Constituant Returns the deserialized constituant.
@@ -83,7 +83,7 @@ class JsonDeserializer {
     }
 
     /**
-     * Deserializes a groupe aliments.
+     * Deserialize a groupe aliments.
      *
      * @param array $data The data.
      * @return GroupeAliments Returns the deserialized groupe aliments.
@@ -105,7 +105,7 @@ class JsonDeserializer {
     }
 
     /**
-     * Deserializes a source.
+     * Deserialize a source.
      *
      * @param array $data The data.
      * @return Source Returns the deserialized source.

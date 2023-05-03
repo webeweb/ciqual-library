@@ -25,7 +25,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class AlimentTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class AlimentTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGroupe()
+     * Test setCodeGroupe()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class AlimentTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomIndexFr()
+     * Test setNomIndexFr()
      *
      * @returnn void
      */
@@ -79,7 +79,7 @@ class AlimentTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @returnn void
      */

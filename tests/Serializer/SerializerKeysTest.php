@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class SerializerKeysTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

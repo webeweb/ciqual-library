@@ -29,7 +29,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class JsonDeserializerTest extends AbstractTestCase {
 
     /**
-     * Tests deserializeAliment()
+     * Test deserializeAliment()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class JsonDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeComposition()
+     * Test deserializeComposition()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class JsonDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeConstituant()
+     * Test deserializeConstituant()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class JsonDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeGroupeAliments()
+     * Test deserializeGroupeAliments()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class JsonDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeSource()
+     * Test deserializeSource()
      *
      * @return void
      */

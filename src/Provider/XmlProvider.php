@@ -66,7 +66,7 @@ class XmlProvider {
     const FILENAME_SOURCE = "sources_";
 
     /**
-     * Deserializes XML.
+     * Deserialize XML.
      *
      * @param string $filename The filename.
      * @param Table $model The model.
@@ -137,7 +137,7 @@ class XmlProvider {
     }
 
     /**
-     * Enumerates the matches.
+     * Enumerate the matches.
      *
      * @return string[] Returns the matches enumeration.
      */

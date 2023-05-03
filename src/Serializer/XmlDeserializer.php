@@ -28,7 +28,7 @@ use WBW\Library\Serializer\Helper\XmlDeserializerHelper;
 class XmlDeserializer extends XmlDeserializerHelper {
 
     /**
-     * Deserializes an aliment.
+     * Deserialize an aliment.
      *
      * @param DOMNode $domNode The DOM node.
      * @return Aliment Returns the aliment.
@@ -50,7 +50,7 @@ class XmlDeserializer extends XmlDeserializerHelper {
     }
 
     /**
-     * Deserializes a composition.
+     * Deserialize a composition.
      *
      * @param DOMNode $domNode The DOM node.
      * @return Composition Returns the composition.
@@ -72,7 +72,7 @@ class XmlDeserializer extends XmlDeserializerHelper {
     }
 
     /**
-     * Deserializes a constituant.
+     * Deserialize a constituant.
      *
      * @param DOMNode $domNode The DOM node.
      * @return Constituant Returns the constituant.
@@ -90,7 +90,7 @@ class XmlDeserializer extends XmlDeserializerHelper {
     }
 
     /**
-     * Deserializes a groupe aliments.
+     * Deserialize a groupe aliments.
      *
      * @param DOMNode $domNode The DOM node.
      * @return GroupeAliments Returns the groupe aliments.
@@ -114,7 +114,7 @@ class XmlDeserializer extends XmlDeserializerHelper {
     }
 
     /**
-     * Deserializes a source.
+     * Deserialize a source.
      *
      * @param DOMNode $domNode The DOM node.
      * @return Source Returns the source.

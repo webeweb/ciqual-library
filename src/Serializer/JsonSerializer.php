@@ -27,7 +27,7 @@ use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 class JsonSerializer extends JsonSerializerHelper {
 
     /**
-     * Serializes an aliment.
+     * Serialize an aliment.
      *
      * @param Aliment $model The model.
      * @return array Returns the serialized aliment.
@@ -46,7 +46,7 @@ class JsonSerializer extends JsonSerializerHelper {
     }
 
     /**
-     * Serializes a composition.
+     * Serialize a composition.
      *
      * @param Composition $model The model.
      * @return array Returns the serialized composition.
@@ -65,7 +65,7 @@ class JsonSerializer extends JsonSerializerHelper {
     }
 
     /**
-     * Serializes a constituant.
+     * Serialize a constituant.
      *
      * @param Constituant $model The model.
      * @return array Returns the serialized constituant.
@@ -80,7 +80,7 @@ class JsonSerializer extends JsonSerializerHelper {
     }
 
     /**
-     * Serializes a groupe aliments.
+     * Serialize a groupe aliments.
      *
      * @param GroupeAliments $model The model.
      * @return array Returns the serialized groupe aliments.
@@ -101,7 +101,7 @@ class JsonSerializer extends JsonSerializerHelper {
     }
 
     /**
-     * Serializes a source.
+     * Serialize a source.
      *
      * @param Source $model The model.
      * @return array Returns the serialized source.

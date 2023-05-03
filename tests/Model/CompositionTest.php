@@ -25,7 +25,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class CompositionTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAliment()
+     * Test setCodeAliment()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeConfiance()
+     * Test setCodeConfiance()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeConstituant()
+     * Test setCodeConstituant()
      *
      * @return void
      */
@@ -92,7 +92,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSource()
+     * Test setCodeSource()
      *
      * @return void
      */
@@ -105,7 +105,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMax()
+     * Test setMax()
      *
      * @return void
      */
@@ -118,7 +118,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMin()
+     * Test setMin()
      *
      * @return void
      */
@@ -131,7 +131,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTeneur()
+     * Test setTeneur()
      *
      * @return void
      */
@@ -144,7 +144,7 @@ class CompositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

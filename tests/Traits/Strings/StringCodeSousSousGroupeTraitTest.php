@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings\TestStringCodeSousSousGroup
 class StringCodeSousSousGroupeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeSousSousGroupe()
+     * Test setCodeSousSousGroupe()
      *
      * @return void
      */

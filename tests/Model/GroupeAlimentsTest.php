@@ -19,7 +19,7 @@ use WBW\Library\Ciqual\Serializer\SerializerKeys;
 class GroupeAlimentsTest extends TestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class GroupeAlimentsTest extends TestCase {
     }
 
     /**
-     * Tests setNomEngSousGroupe()
+     * Test setNomEngSousGroupe()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class GroupeAlimentsTest extends TestCase {
     }
 
     /**
-     * Tests setNomEngSousSousGroupe()
+     * Test setNomEngSousSousGroupe()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class GroupeAlimentsTest extends TestCase {
     }
 
     /**
-     * Tests setNomFrSousGroupe()
+     * Test setNomFrSousGroupe()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class GroupeAlimentsTest extends TestCase {
     }
 
     /**
-     * Tests setNomFrSousSousGroupe()
+     * Test setNomFrSousSousGroupe()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class GroupeAlimentsTest extends TestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

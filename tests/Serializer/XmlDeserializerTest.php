@@ -29,7 +29,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class XmlDeserializerTest extends AbstractTestCase {
 
     /**
-     * Tests deserializeAliment()
+     * Test deserializeAliment()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeComposition()
+     * Test deserializeComposition()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeConstituant()
+     * Test deserializeConstituant()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeGroupeAliments()
+     * Test deserializeGroupeAliments()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class XmlDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deserializeSource()
+     * Test deserializeSource()
      *
      * @return void
      */

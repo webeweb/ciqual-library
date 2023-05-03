@@ -28,7 +28,7 @@ use WBW\Library\Ciqual\Tests\AbstractTestCase;
 class TableTest extends AbstractTestCase {
 
     /**
-     * Tests addAliment()
+     * Test addAliment()
      *
      * @return void
      */
@@ -44,7 +44,7 @@ class TableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addComposition()
+     * Test addComposition()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class TableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addConstituant()
+     * Test addConstituant()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class TableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addGroupeAliments()
+     * Test addGroupeAliments()
      *
      * @return void
      */
@@ -92,7 +92,7 @@ class TableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests add()
+     * Test add()
      *
      * @return void
      */
@@ -108,7 +108,7 @@ class TableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests add()
+     * Test add()
      *
      * @return void
      */

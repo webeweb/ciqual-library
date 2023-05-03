@@ -23,7 +23,7 @@ use WBW\Library\Ciqual\Tests\Fixtures\Traits\Strings\TestStringNomFrTrait;
 class StringNomFrTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setNomFr()
+     * Test setNomFr()
      *
      * @return void
      */
