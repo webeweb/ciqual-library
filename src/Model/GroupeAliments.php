@@ -112,7 +112,7 @@ class GroupeAliments implements JsonSerializable {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeGroupeAliments($this);
