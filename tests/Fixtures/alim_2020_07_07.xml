@@ -1271,11 +1271,9 @@
     </ALIM>
     <ALIM>
         <alim_code>5005</alim_code>
-        <alim_nom_fr>Panaché préemballé (<1° alc.)
-        </alim_nom_fr>
+        <alim_nom_fr>Panaché préemballé (<1° alc.)</alim_nom_fr>
         <ALIM_NOM_INDEX_FR>Panaché</ALIM_NOM_INDEX_FR>
-        <alim_nom_eng>Shandy, prepacked (<1° alcohol)
-        </alim_nom_eng>
+        <alim_nom_eng>Shandy, prepacked (<1° alcohol)</alim_nom_eng>
         <alim_grp_code>06</alim_grp_code>
         <alim_ssgrp_code>0603</alim_ssgrp_code>
         <alim_ssssgrp_code>060304</alim_ssssgrp_code>
@@ -1363,11 +1361,9 @@
     </ALIM>
     <ALIM>
         <alim_code>5030</alim_code>
-        <alim_nom_fr>Bière sans alcool (<1,2° alcool)
-        </alim_nom_fr>
+        <alim_nom_fr>Bière sans alcool (<1,2° alcool)</alim_nom_fr>
         <ALIM_NOM_INDEX_FR>Bière sans alcool</ALIM_NOM_INDEX_FR>
-        <alim_nom_eng>Beer, alcohol-free (<1,2° alcohol)
-        </alim_nom_eng>
+        <alim_nom_eng>Beer, alcohol-free (<1,2° alcohol)</alim_nom_eng>
         <alim_grp_code>06</alim_grp_code>
         <alim_ssgrp_code>0603</alim_ssgrp_code>
         <alim_ssssgrp_code>060302</alim_ssssgrp_code>
@@ -8394,14 +8390,8 @@
     </ALIM>
     <ALIM>
         <alim_code>13152</alim_code>
-        <alim_nom_fr>Dessert de fruits, tout type de fruits (en taux de sucres : compotes allégées en sucres
-            < desserts de fruits
-            < compotes allégée)
-        </alim_nom_fr>
-        <ALIM_NOM_INDEX_FR>Dessert de fruits, tout type de fruits (en taux de sucres : compotes allégées en sucres
-            < desserts de fruits
-            < compotes allégée)
-        </ALIM_NOM_INDEX_FR>
+        <alim_nom_fr>Dessert de fruits, tout type de fruits (en taux de sucres : compotes allégées en sucres < desserts de fruits < compotes allégée)</alim_nom_fr>
+        <ALIM_NOM_INDEX_FR>Dessert de fruits, tout type de fruits (en taux de sucres : compotes allégées en sucres < desserts de fruits < compotes allégée)</ALIM_NOM_INDEX_FR>
         <alim_nom_eng>Fruits dessert, all types (fruits dessert's sugar content is less than fruits compote but more than fruits compote reduced sugar)</alim_nom_eng>
         <alim_grp_code>02</alim_grp_code>
         <alim_ssgrp_code>0204</alim_ssgrp_code>
@@ -25140,14 +25130,8 @@
     </ALIM>
     <ALIM>
         <alim_code>31082</alim_code>
-        <alim_nom_fr>Préparation de fruits divers (en taux de sucres : confitures allégées en sucres
-            < préparations de fruits
-            < confitures)
-        </alim_nom_fr>
-        <ALIM_NOM_INDEX_FR>Préparation de fruits divers (en taux de sucres : confitures allégées en sucres
-            < préparations de fruits
-            < confitures)
-        </ALIM_NOM_INDEX_FR>
+        <alim_nom_fr>Préparation de fruits divers (en taux de sucres : confitures allégées en sucres < préparations de fruits < confitures)</alim_nom_fr>
+        <ALIM_NOM_INDEX_FR>Préparation de fruits divers (en taux de sucres : confitures allégées en sucres < préparations de fruits < confitures)</ALIM_NOM_INDEX_FR>
         <alim_nom_eng>Fruit preparation, sweetened, less sugar than classic, but not as reduced as in jams reduced sugar</alim_nom_eng>
         <alim_grp_code>07</alim_grp_code>
         <alim_ssgrp_code>0704</alim_ssgrp_code>
