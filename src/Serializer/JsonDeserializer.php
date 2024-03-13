@@ -29,7 +29,7 @@ class JsonDeserializer {
     /**
      * Deserialize an aliment.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Aliment Returns the deserialized aliment.
      */
     public static function deserializeAliment(array $data): Aliment {
@@ -49,7 +49,7 @@ class JsonDeserializer {
     /**
      * Deserialize a composition.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Composition Returns the deserialized composition.
      */
     public static function deserializeComposition(array $data): Composition {
@@ -69,7 +69,7 @@ class JsonDeserializer {
     /**
      * Deserialize a constituant.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Constituant Returns the deserialized constituant.
      */
     public static function deserializeConstituant(array $data): Constituant {
@@ -85,7 +85,7 @@ class JsonDeserializer {
     /**
      * Deserialize a groupe aliments.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return GroupeAliments Returns the deserialized groupe aliments.
      */
     public static function deserializeGroupeAliments(array $data): GroupeAliments {
@@ -107,7 +107,7 @@ class JsonDeserializer {
     /**
      * Deserialize a source.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Source Returns the deserialized source.
      */
     public static function deserializeSource(array $data): Source {
