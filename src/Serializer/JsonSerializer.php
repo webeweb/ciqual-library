@@ -30,7 +30,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * Serialize an aliment.
      *
      * @param Aliment $model The model.
-     * @return array Returns the serialized aliment.
+     * @return array<string,mixed> Returns the serialized aliment.
      */
     public static function serializeAliment(Aliment $model): array {
 
@@ -49,7 +49,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * Serialize a composition.
      *
      * @param Composition $model The model.
-     * @return array Returns the serialized composition.
+     * @return array<string,mixed> Returns the serialized composition.
      */
     public static function serializeComposition(Composition $model): array {
 
@@ -68,7 +68,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * Serialize a constituant.
      *
      * @param Constituant $model The model.
-     * @return array Returns the serialized constituant.
+     * @return array<string,mixed> Returns the serialized constituant.
      */
     public static function serializeConstituant(Constituant $model): array {
 
@@ -83,7 +83,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * Serialize a groupe aliments.
      *
      * @param GroupeAliments $model The model.
-     * @return array Returns the serialized groupe aliments.
+     * @return array<string,mixed> Returns the serialized groupe aliments.
      */
     public static function serializeGroupeAliments(GroupeAliments $model): array {
 
@@ -104,7 +104,7 @@ class JsonSerializer extends JsonSerializerHelper {
      * Serialize a source.
      *
      * @param Source $model The model.
-     * @return array Returns the serialized source.
+     * @return array<string,mixed> Returns the serialized source.
      */
     public static function serializeSource(Source $model): array {
 
