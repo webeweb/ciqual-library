@@ -116,7 +116,6 @@ class XmlProvider {
      * @param string $url The URL.
      * @param string $filename The filename.
      * @return void
-     * @throws GuzzleException Throws a Guzzle exception if an error occurs.
      * @throws Throwable Throws an exception if an error occurs.
      */
     public static function downloadZip(string $url, string $filename): void {
@@ -162,7 +161,7 @@ class XmlProvider {
     public static function extractZip(string $filename): Table {
 
         $zip = new ZipArchive();
-        if (false === $zip->open($filename)) {
+        if (true !== $zip->open($filename)) {
             throw new RuntimeException("Open the ZIP archive $filename failed");
         }
 
