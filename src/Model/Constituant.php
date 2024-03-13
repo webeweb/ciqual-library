@@ -45,6 +45,7 @@ class Constituant implements JsonSerializable {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeConstituant($this);
