@@ -25,7 +25,7 @@ Open a command console, enter your project directory and execute the following
 command to download the latest stable version of this package:
 
 ```bash
-$ composer require webeweb/ciqual-library
+composer require webeweb/ciqual-library
 ```
 
 This command requires you to have Composer installed globally, as explained in
@@ -43,15 +43,15 @@ Open a command console and execute the following commands to download the latest
 stable version of this package:
 
 ```bash
-$ git clone https://github.com/webeweb/ciqual-library.git
-$ cd ciqual-library
-$ composer install
+git clone https://github.com/webeweb/ciqual-library.git
+cd ciqual-library
+composer install
 ```
 
 Once all required libraries are installed then do:
 
 ```bash
-$ vendor/bin/phpunit
+vendor/bin/phpunit
 ```
 
 ## License
